@@ -81,11 +81,11 @@ const Link = () => {
             {url?.title}
           </span>
           <a
-            href={`https://trimmr.in/${link}`}
+            href={`https://trimmr.netlify.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://trimmr.in/{link}
+            https://trimmr.netlify.app/{link}
           </a>
           <a
             href={url?.original_url}
