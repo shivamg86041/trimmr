@@ -81,11 +81,11 @@ const Link = () => {
             {url?.title}
           </span>
           <a
-            href={`https://trimmr.netlify.app/${link}`}
+            href={`https://trimmr0.netlify.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://trimmr.netlify.app/{link}
+            https://trimmr0.netlify.app/{link}
           </a>
           <a
             href={url?.original_url}
@@ -103,7 +103,7 @@ const Link = () => {
               variant="ghost"
               onClick={() =>
                 navigator.clipboard.writeText(
-                  `https://trimmr.netlify.app/${url?.short_url}`
+                  `https://trimmr0.netlify.app/${url?.short_url}`
                 )
               }
             >
