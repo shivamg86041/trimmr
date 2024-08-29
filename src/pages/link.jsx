@@ -103,7 +103,7 @@ const Link = () => {
               variant="ghost"
               onClick={() =>
                 navigator.clipboard.writeText(
-                  `https://trimmr.in/${url?.short_url}`
+                  `https://trimmr.netlify.app/${url?.short_url}`
                 )
               }
             >
